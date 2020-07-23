@@ -78,7 +78,8 @@ var Panel = {
             }
             break;
 
-        case 'breadthfirst_header':
+        case 'hello':
+            console.log("he");
             allowDiagonal = typeof $('#breadthfirst_section ' +
                                      '.allow_diagonal:checked').val() !== 'undefined';
             biDirectional = typeof $('#breadthfirst_section ' +
@@ -164,6 +165,7 @@ var Panel = {
             });
             break;
         case 'ida_header':
+            console.log("hell");
             allowDiagonal = typeof $('#ida_section ' +
                                      '.allow_diagonal:checked').val() !== 'undefined';
             dontCrossCorners = typeof $('#ida_section ' +
